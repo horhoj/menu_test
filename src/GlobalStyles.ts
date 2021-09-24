@@ -9,6 +9,10 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  body {
+    background-color: cadetblue;
+    border: 1px solid red;
+  }
 `;
 
 export const Container = styled.div`

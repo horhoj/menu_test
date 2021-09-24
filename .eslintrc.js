@@ -34,7 +34,7 @@ module.exports = {
   },
   rules: {
     // possible JS errors
-    'no-console': types.WARN,
+    'no-console': types.OFF,
     'no-template-curly-in-string': types.WARN,
     // 'no-extra-parens': types.WARN,
     'require-atomic-updates': types.ERROR,
